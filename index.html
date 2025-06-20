@@ -8,6 +8,13 @@
   </head>
   <body>
     <div id="app"></div>
+    <script>
+      // Handle GitHub Pages SPA redirect
+      if (sessionStorage.getItem('redirect')) {
+        history.replaceState(null, null, sessionStorage.getItem('redirect'));
+        sessionStorage.removeItem('redirect');
+      }
+    </script>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
