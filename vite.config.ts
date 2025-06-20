@@ -10,5 +10,5 @@ export default defineConfig(({ command }) => ({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  base: command === 'serve' ? '/' : '/amandas-tea-house/'
+  base: '/'
 }))
