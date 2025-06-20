@@ -63,5 +63,6 @@ npm run deploy
 ### Deployment
 
 - Automatically deploys to GitHub Pages via GitHub Actions on push to main branch
-- Vite base URL configured for GitHub Pages (`/amandas-tea-house/`)
-- Uses `gh-pages` package for deployment
+- Hosted at custom domain: https://amandastea.house
+- Vite base URL configured for custom domain (`/`)
+- Includes SPA routing support with 404.html redirect handling

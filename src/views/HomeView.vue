@@ -97,7 +97,7 @@ const getCategoryImagePath = (category: TeaCategory): string => {
 
 const loadCategoriesFromCSV = async () => {
   try {
-    const response = await fetch('/amandas-tea-house/categoryData.csv')
+    const response = await fetch('/categoryData.csv')
     const csvText = await response.text()
 
     Papa.parse(csvText, {

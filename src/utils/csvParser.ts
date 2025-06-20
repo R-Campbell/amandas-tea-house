@@ -13,7 +13,7 @@ export interface Tea {
 
 export const loadTeaDataFromCSV = async (): Promise<Tea[]> => {
   try {
-    const response = await fetch('/amandas-tea-house/teaData.csv')
+    const response = await fetch('/teaData.csv')
     const csvText = await response.text()
 
     return new Promise((resolve, reject) => {
