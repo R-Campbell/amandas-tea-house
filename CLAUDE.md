@@ -63,5 +63,5 @@ npm run deploy
 ### Deployment
 
 - Automatically deploys to GitHub Pages via GitHub Actions on push to main branch
-- Vite base URL configured for GitHub Pages (`/amandas-tea-shop/`)
+- Vite base URL configured for GitHub Pages (`/amandas-tea-house/`)
 - Uses `gh-pages` package for deployment
