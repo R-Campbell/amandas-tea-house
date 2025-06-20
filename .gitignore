@@ -29,3 +29,6 @@ coverage
 
 # Claude Local Settings
 .claude/*
+
+# TS
+tsconfig.tsbuildinfo
